@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFHXTool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "对环信sdk的封装,主要监听消息"
   s.homepage     = "https://github.com/LDeath/HXTool"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LDeath/HXTool.git", :tag => s.version }
   s.source_files  = "MAFHXTool", "MAFHXTool/**/*.{h,m}"
   s.frameworks = "UIKit", "Foundation"
-
+  s.dependency 'HyphenateLite'
 end

@@ -15,7 +15,7 @@
 		27385E061F1C3EE400C8D91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27385E041F1C3EE400C8D91F /* LaunchScreen.storyboard */; };
 		27385E111F1C3EE400C8D91F /* HXHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27385E101F1C3EE400C8D91F /* HXHelpTests.m */; };
 		27385E1C1F1C3EE400C8D91F /* HXHelpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27385E1B1F1C3EE400C8D91F /* HXHelpUITests.m */; };
-		27385E2C1F1C3F4F00C8D91F /* MAFHXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 27385E2B1F1C3F4F00C8D91F /* MAFHXTool.m */; };
+		2DF3E714BEC07EC2351C5455 /* libPods-HXHelp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0836298891518ED9656C3EC /* libPods-HXHelp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1062A098926EE59D838B91CB /* Pods-HXHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXHelp/Pods-HXHelp.release.xcconfig"; sourceTree = "<group>"; };
 		27385DF31F1C3EE400C8D91F /* HXHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27385DF71F1C3EE400C8D91F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27385DF91F1C3EE400C8D91F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +53,8 @@
 		27385E171F1C3EE400C8D91F /* HXHelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXHelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27385E1B1F1C3EE400C8D91F /* HXHelpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHelpUITests.m; sourceTree = "<group>"; };
 		27385E1D1F1C3EE400C8D91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27385E2A1F1C3F4F00C8D91F /* MAFHXTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFHXTool.h; sourceTree = "<group>"; };
-		27385E2B1F1C3F4F00C8D91F /* MAFHXTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFHXTool.m; sourceTree = "<group>"; };
+		75701030BA48A3F3C42A2BAD /* Pods-HXHelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXHelp/Pods-HXHelp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0836298891518ED9656C3EC /* libPods-HXHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF3E714BEC07EC2351C5455 /* libPods-HXHelp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +90,8 @@
 				27385E0F1F1C3EE400C8D91F /* HXHelpTests */,
 				27385E1A1F1C3EE400C8D91F /* HXHelpUITests */,
 				27385DF41F1C3EE400C8D91F /* Products */,
+				6EFCBB7513D86C5FC840B7F2 /* Pods */,
+				3A1C81B7AF7C82DAD062A89E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +108,6 @@
 		27385DF51F1C3EE400C8D91F /* HXHelp */ = {
 			isa = PBXGroup;
 			children = (
-				27385E291F1C3F3B00C8D91F /* MAFHXTool */,
 				27385DF91F1C3EE400C8D91F /* AppDelegate.h */,
 				27385DFA1F1C3EE400C8D91F /* AppDelegate.m */,
 				27385DFC1F1C3EE400C8D91F /* ViewController.h */,
@@ -144,13 +147,21 @@
 			path = HXHelpUITests;
 			sourceTree = "<group>";
 		};
-		27385E291F1C3F3B00C8D91F /* MAFHXTool */ = {
+		3A1C81B7AF7C82DAD062A89E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27385E2A1F1C3F4F00C8D91F /* MAFHXTool.h */,
-				27385E2B1F1C3F4F00C8D91F /* MAFHXTool.m */,
+				A0836298891518ED9656C3EC /* libPods-HXHelp.a */,
 			);
-			path = MAFHXTool;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFCBB7513D86C5FC840B7F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75701030BA48A3F3C42A2BAD /* Pods-HXHelp.debug.xcconfig */,
+				1062A098926EE59D838B91CB /* Pods-HXHelp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27385E201F1C3EE400C8D91F /* Build configuration list for PBXNativeTarget "HXHelp" */;
 			buildPhases = (
+				8196F557ECE08654920F7891 /* [CP] Check Pods Manifest.lock */,
 				27385DEF1F1C3EE400C8D91F /* Sources */,
 				27385DF01F1C3EE400C8D91F /* Frameworks */,
 				27385DF11F1C3EE400C8D91F /* Resources */,
+				8E95F2D0BC0F1D72EA225888 /* [CP] Embed Pods Frameworks */,
+				A4869B3F4780D65ACFCC66CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,12 +298,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8196F557ECE08654920F7891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXHelp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E95F2D0BC0F1D72EA225888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHelp/Pods-HXHelp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4869B3F4780D65ACFCC66CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHelp/Pods-HXHelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27385DEF1F1C3EE400C8D91F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27385E2C1F1C3F4F00C8D91F /* MAFHXTool.m in Sources */,
 				27385DFE1F1C3EE400C8D91F /* ViewController.m in Sources */,
 				27385DFB1F1C3EE400C8D91F /* AppDelegate.m in Sources */,
 				27385DF81F1C3EE400C8D91F /* main.m in Sources */,
@@ -441,6 +505,7 @@
 		};
 		27385E211F1C3EE400C8D91F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75701030BA48A3F3C42A2BAD /* Pods-HXHelp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R9DHB48999;
@@ -453,6 +518,7 @@
 		};
 		27385E221F1C3EE400C8D91F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1062A098926EE59D838B91CB /* Pods-HXHelp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R9DHB48999;

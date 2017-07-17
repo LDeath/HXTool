@@ -1,0 +1,3 @@
+target 'HXHelp' do
+pod 'MAFHXTool'
+end
