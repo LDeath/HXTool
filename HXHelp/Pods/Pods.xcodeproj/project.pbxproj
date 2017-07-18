@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		06E3CF9AF00DA605BCAD06F2EE461E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		48185CA76BECAFE1FE7A319EA8D819BF /* MAFHXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3985F4E57C861E4A61175CACB919DDCE /* MAFHXTool.m */; };
-		6C30D8EAFE484CAB46DD648D81C45915 /* MAFHXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8F6C5A435C5ABA93820DE402670DE9 /* MAFHXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DB335AE2E44ED653E18BE7C00465089 /* MAFHXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5D45DC02B6C89332EA037104CC8 /* MAFHXTool-dummy.m */; };
+		48185CA76BECAFE1FE7A319EA8D819BF /* MAFHXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF227D4D0DCBD5F61851ABF356B1E113 /* MAFHXTool.m */; };
+		6C30D8EAFE484CAB46DD648D81C45915 /* MAFHXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 737568FB4E5104C86D93A6EC88118F22 /* MAFHXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB335AE2E44ED653E18BE7C00465089 /* MAFHXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C4A65165B7A53BBA7ABB210FF3C55B /* MAFHXTool-dummy.m */; };
 		C9F6F9AF4EFA347B5BF59B56A20C71AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		E33AF08C1B1304D711C915C2EE59C805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		F12D80C1C0F70FC10C27175CF0AAE7AB /* Pods-HXHelp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA4648667B212992F796F08D4EFC23 /* Pods-HXHelp-dummy.m */; };
@@ -28,11 +28,11 @@
 
 /* Begin PBXFileReference section */
 		08CA4648667B212992F796F08D4EFC23 /* Pods-HXHelp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXHelp-dummy.m"; sourceTree = "<group>"; };
-		2715B8467595FEE34F676138E9D2BEF8 /* MAFHXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAFHXTool-prefix.pch"; sourceTree = "<group>"; };
+		2AA78F11CA3403C6DBD6C8D3ACB578C2 /* MAFHXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAFHXTool.xcconfig; sourceTree = "<group>"; };
 		2B67263937FEA1923E202A0DE66AEE2C /* libPods-HXHelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HXHelp.a"; path = "libPods-HXHelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3985F4E57C861E4A61175CACB919DDCE /* MAFHXTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAFHXTool.m; path = MAFHXTool/MAFHXTool.m; sourceTree = "<group>"; };
-		7A8F6C5A435C5ABA93820DE402670DE9 /* MAFHXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAFHXTool.h; path = MAFHXTool/MAFHXTool.h; sourceTree = "<group>"; };
-		7B45D5D45DC02B6C89332EA037104CC8 /* MAFHXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAFHXTool-dummy.m"; sourceTree = "<group>"; };
+		430AED6B0CC437FABE9F4ED912E53582 /* MAFHXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAFHXTool-prefix.pch"; sourceTree = "<group>"; };
+		72E1071A73C47FC4A4C774CD3C2CE44D /* HyphenateLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HyphenateLite.framework; path = ios_IM_HyphenateLite_sdk_3.3.2/HyphenateSDK/HyphenateLite.framework; sourceTree = "<group>"; };
+		737568FB4E5104C86D93A6EC88118F22 /* MAFHXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAFHXTool.h; path = MAFHXTool/MAFHXTool.h; sourceTree = "<group>"; };
 		7C308CA437C39E41E45B2CBCEC12B036 /* Pods-HXHelp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXHelp-acknowledgements.plist"; sourceTree = "<group>"; };
 		80875C5339B58E62698E0BEDB018AB38 /* Pods-HXHelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXHelp.debug.xcconfig"; sourceTree = "<group>"; };
 		8CEB2698B5D4EF04284A28A51D1A1838 /* Pods-HXHelp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXHelp-frameworks.sh"; sourceTree = "<group>"; };
@@ -41,9 +41,10 @@
 		A5365E22DEB2E5189AC4FF3ECD8E2801 /* Pods-HXHelp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXHelp-resources.sh"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BC0D87211E9D2C3535EFD6FC115425CA /* Pods-HXHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXHelp.release.xcconfig"; sourceTree = "<group>"; };
+		D3C4A65165B7A53BBA7ABB210FF3C55B /* MAFHXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAFHXTool-dummy.m"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB17A13484B1E56D2DA84F99ABFDC2E6 /* MAFHXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAFHXTool.xcconfig; sourceTree = "<group>"; };
 		F5013EF38EF47F6D5FECFFF66CBD8953 /* Pods-HXHelp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXHelp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF227D4D0DCBD5F61851ABF356B1E113 /* MAFHXTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAFHXTool.m; path = MAFHXTool/MAFHXTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1307342A0FFEDFBCA14C0323342A29E0 /* Pods */ = {
+		16E006FE53407D3F211E1529B52DD713 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95CDB8CABC259AE3DFFA27280C05216A /* MAFHXTool */,
+				2AA78F11CA3403C6DBD6C8D3ACB578C2 /* MAFHXTool.xcconfig */,
+				D3C4A65165B7A53BBA7ABB210FF3C55B /* MAFHXTool-dummy.m */,
+				430AED6B0CC437FABE9F4ED912E53582 /* MAFHXTool-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MAFHXTool";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -92,6 +96,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5A9CE405B2559BAA9AF24FD18A8FFC2E /* HyphenateLite */ = {
+			isa = PBXGroup;
+			children = (
+				97C1FF2269C52EB34B53A82D46F4985B /* Frameworks */,
+			);
+			name = HyphenateLite;
+			path = HyphenateLite;
+			sourceTree = "<group>";
+		};
 		5CBC01FD9A9D2483C1B7962825F65C1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,21 +119,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				1307342A0FFEDFBCA14C0323342A29E0 /* Pods */,
+				EB6F781B4F963B4F697046A1089F3876 /* Pods */,
 				5CBC01FD9A9D2483C1B7962825F65C1E /* Products */,
 				A8BB421BFE8D242EB4A882E39DD40E8D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		95CDB8CABC259AE3DFFA27280C05216A /* MAFHXTool */ = {
+		97C1FF2269C52EB34B53A82D46F4985B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A8F6C5A435C5ABA93820DE402670DE9 /* MAFHXTool.h */,
-				3985F4E57C861E4A61175CACB919DDCE /* MAFHXTool.m */,
-				C21D111A4C625A5748A7390BE30D628C /* Support Files */,
+				72E1071A73C47FC4A4C774CD3C2CE44D /* HyphenateLite.framework */,
 			);
-			name = MAFHXTool;
-			path = MAFHXTool;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A8BB421BFE8D242EB4A882E39DD40E8D /* Targets Support Files */ = {
@@ -131,15 +141,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C21D111A4C625A5748A7390BE30D628C /* Support Files */ = {
+		DAE41B85A8F0CA3B6751582B13369C1C /* MAFHXTool */ = {
 			isa = PBXGroup;
 			children = (
-				DB17A13484B1E56D2DA84F99ABFDC2E6 /* MAFHXTool.xcconfig */,
-				7B45D5D45DC02B6C89332EA037104CC8 /* MAFHXTool-dummy.m */,
-				2715B8467595FEE34F676138E9D2BEF8 /* MAFHXTool-prefix.pch */,
+				737568FB4E5104C86D93A6EC88118F22 /* MAFHXTool.h */,
+				FF227D4D0DCBD5F61851ABF356B1E113 /* MAFHXTool.m */,
+				16E006FE53407D3F211E1529B52DD713 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MAFHXTool";
+			name = MAFHXTool;
+			path = MAFHXTool;
+			sourceTree = "<group>";
+		};
+		EB6F781B4F963B4F697046A1089F3876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A9CE405B2559BAA9AF24FD18A8FFC2E /* HyphenateLite */,
+				DAE41B85A8F0CA3B6751582B13369C1C /* MAFHXTool */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F99CEEDE22A145094B6566A5B42640E5 /* Pods-HXHelp */ = {
@@ -264,7 +283,7 @@
 /* Begin XCBuildConfiguration section */
 		10672BF59E2A109BF9913A810BAFE4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB17A13484B1E56D2DA84F99ABFDC2E6 /* MAFHXTool.xcconfig */;
+			baseConfigurationReference = 2AA78F11CA3403C6DBD6C8D3ACB578C2 /* MAFHXTool.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -311,7 +330,7 @@
 		};
 		32212963D052E2B15D581E3370EB7470 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB17A13484B1E56D2DA84F99ABFDC2E6 /* MAFHXTool.xcconfig */;
+			baseConfigurationReference = 2AA78F11CA3403C6DBD6C8D3ACB578C2 /* MAFHXTool.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

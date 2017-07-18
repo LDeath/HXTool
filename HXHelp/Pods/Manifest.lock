@@ -1,11 +1,14 @@
 PODS:
-  - MAFHXTool (0.0.1)
+  - HyphenateLite (3.3.2)
+  - MAFHXTool (0.0.2):
+    - HyphenateLite
 
 DEPENDENCIES:
   - MAFHXTool
 
 SPEC CHECKSUMS:
-  MAFHXTool: cb4302fb53ca11ef2e70fbda08829b017c384d18
+  HyphenateLite: 54ffda162deec2cedf156185a707b86678ae914a
+  MAFHXTool: 62f27344a43c7a40fd464c51693c5d9ae24a45ae
 
 PODFILE CHECKSUM: af687c8abdc8b2a42b0f4f067189318fbb9723ad
 

@@ -7,6 +7,7 @@
 //
 
 #import "MAFHXTool.h"
+#import <HyphenateLite/HyphenateLite.h>
 
 @implementation MAFHXTool
 
